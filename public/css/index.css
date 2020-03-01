@@ -1,0 +1,52 @@
+
+.right{
+    float:right;
+}
+.left{
+    float:left;
+}
+
+.event, .event-inline{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+  }
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 1.25rem;
+}
+
+.event-title{
+    margin: 0;
+}
+.event td, .event th {
+    padding: 5px 10px;
+}
+
+#add-btn-container{
+    display: flex;
+    justify-content: center;
+}
+
+#add-btn{
+    padding: 5px 25px;
+    background-image: none;
+}
+#add-btn a{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+#add-btn a i{
+    margin-right: 5px;
+}

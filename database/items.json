@@ -1,0 +1,58 @@
+{
+    "0": {
+        "id": "0",
+        "name": "Spaghetti",
+        "description": "8x11 pan of spaghetti",
+        "quantity": 1,
+        "points": 10,
+        "claimedBy": {}
+    },
+    "1": {
+        "id": "1",
+        "name": "Skewers",
+        "description": "Wooden or metal skewers for kabobs",
+        "quantity": 1,
+        "points": 5,
+        "claimedBy": {}
+    },
+    "2": {
+        "id": "2",
+        "name": "Turkey",
+        "description": "Two cooked turkeys for the dinner",
+        "quantity": 2,
+        "points": 15,
+        "claimedBy": {"happycamper33": 1, "Jmoney64": 1}
+    },
+    "3": {
+        "id": "3",
+        "name": "Sprite",
+        "description": "2 liter bottle of Sprite",
+        "quantity": 2,
+        "points": 10,
+        "claimedBy": {}
+    },
+    "4": {
+        "id": "4",
+        "name": "Cider",
+        "description": "Bottle of sparkling cider",
+        "quantity": 2,
+        "points": 5,
+        "claimedBy": {"happycamper33": 1, "duckBill26": 1}
+    },
+    "5": {
+        "id": "5",
+        "name": "Fig Pudding",
+        "description": "1 bowl of fig pudding",
+        "quantity": 3,
+        "points": 5,
+        "claimedBy": {"happycamper33": 1, "gassa99": 1}
+    },
+    "6": {
+        "id": "6",
+        "name": "Christmas Tree",
+        "description": "7' Christmas tree, fully decorated",
+        "quantity": 1,
+        "points": 20,
+        "claimedBy": {}
+    }
+}
