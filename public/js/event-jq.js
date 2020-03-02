@@ -19,8 +19,8 @@ function initializePage(){
     $('#claimSubmitBtn').click(claimItem);
     $('#deleteEventBtn').click(deleteEvent);
     $('#newItemModal').click(clickAddItem);
-    $("#eventActionsMenu").eq(2).click(clickPoints);
-    $("#toolbar-btn").click(clickPoints);
+    $('#eventActionsMenu').eq(2).click(clickPoints);
+    $('#toolbar-btn').click(clickPoints);
 
     // Extract data
     eventData = $('#eventData').data('event');
