@@ -18,6 +18,8 @@ function initializePage(){
     $('#addItemSubmitBtn').click(addItem);
     $('#claimSubmitBtn').click(claimItem);
     $('#deleteEventBtn').click(deleteEvent);
+    $('#newItemModal').click(clickAddItem);
+    $("#pointsBtn").click(clickPoints);
 
     // Extract data
     eventData = $('#eventData').data('event');
@@ -105,4 +107,16 @@ function addItem(){
 
 function deleteEvent(e){
     $.post('/deleteEvent', {eventId: eventData.id});
+}
+
+function clickAddItem(e) {
+    e.preventDefault();
+    ga('create', 'UA-158820516-2', 'auto');
+    ga('send', 'event', 'addItem', 'click');
+}
+
+function clickPoints(e) {
+    e.preventDefault();
+    ga('create', 'UA-158820516-2', 'auto');
+    ga('send', 'event', 'points', 'click');
 }
