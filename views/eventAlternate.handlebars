@@ -17,13 +17,12 @@
 	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-158820516-1', 'auto');
+	ga('create', 'UA-158820516-2', 'auto');
 	ga('require', 'GTM-TLS38TB');
 	ga('send', 'pageview');
 	</script>
 
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158820516-1"></script>
-
 
   <div id="eventData" data-event="{{jsonify event}}" data-items="{{jsonify items}}" data-users="{{jsonify users}}"></div>
 </head>
@@ -31,7 +30,7 @@
     <div class="container toolbar">
         <div class="toolbar-back"><a alt="back" href="/index"><i class="material-icons">arrow_back</i></a></div>
         <div class="toolbar-title"><h2 class="page-title">{{event.title}}</h2></div>
-        <div class="toolbar-btn"><button type="button" class="toolbar-btn btn btn-primary"><a alt="point totals" href="/points?id={{event.id}}">Points</a></button></div>
+        <div class="toolbar-btn"><button type="button" class="toolbar-btn btn btn-primary"><a id="pointsBtn" alt="point totals" href="/points?id={{event.id}}">Points</a></button></div>
         <div class="toolbar-btn"><button type="button" class="toolbar-btn btn btn-primary"><a alt="event settings" href="/edit?id={{event.id}}">Edit</a></button></div>
     </div>
 
